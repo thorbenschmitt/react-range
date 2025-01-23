@@ -24,79 +24,85 @@ import TwoThumbsExample from "../examples/TwoThumbs";
 import TwoThumbsDraggableTrackExample from "../examples/TwoThumbsDraggableTrack";
 import TwoThumbsDraggableTrackDownDirectionExample from "../examples/TwoThumbsDraggableTrackDownDirection";
 import UpDirectionExample from "../examples/UpDirection";
+import ScaledDivExample from "../examples/ScaledDiv";
 
 export const AllowOverlap: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <AllowOverlapExample rtl={rtl} />
+	<AllowOverlapExample rtl={rtl} />
 );
 export const AnimatingContainer: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <AnimatingContainerExample rtl={rtl} />
+	<AnimatingContainerExample rtl={rtl} />
 );
 export const Basic: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <BasicExample rtl={rtl} />
+	<BasicExample rtl={rtl} />
 );
 export const BasicVisibleLabel: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <BasicVisibleLabelExample rtl={rtl} />
+	<BasicVisibleLabelExample rtl={rtl} />
 );
 export const BasicWithBorder: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <BasicWithBorderExample rtl={rtl} />
+	<BasicWithBorderExample rtl={rtl} />
 );
 export const BigSteps: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <BigStepsExample rtl={rtl} />
+	<BigStepsExample rtl={rtl} />
 );
 export const Disabled: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <DisabledExample rtl={rtl} />
+	<DisabledExample rtl={rtl} />
 );
 export const DownDirection: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <DownDirectionExample rtl={rtl} />
+	<DownDirectionExample rtl={rtl} />
 );
 export const Labeled: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <LabeledExample rtl={rtl} />
+	<LabeledExample rtl={rtl} />
 );
 export const LabeledTwoThumbs: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <LabeledTwoThumbsExample rtl={rtl} />
+	<LabeledTwoThumbsExample rtl={rtl} />
 );
 export const LeftDirection: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <LeftDirectionExample rtl={rtl} />
+	<LeftDirectionExample rtl={rtl} />
 );
 export const Marks: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <MarksExample rtl={rtl} />
+	<MarksExample rtl={rtl} />
 );
 export const MarksDynamic: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <MarksDynamicExample rtl={rtl} />
+	<MarksDynamicExample rtl={rtl} />
 );
 export const MarksVertical: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <MarksVerticalExample rtl={rtl} />
+	<MarksVerticalExample rtl={rtl} />
 );
 export const MergingLabels: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <LabeledMergeExample rtl={rtl} />
+	<LabeledMergeExample rtl={rtl} />
 );
 export const MergingLabelsCustom: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <LabeledMergeCustomExample rtl={rtl} />
+	<LabeledMergeCustomExample rtl={rtl} />
 );
 export const MergingLabelsSkinny: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <LabeledMergeSkinnyExample rtl={rtl} />
+	<LabeledMergeSkinnyExample rtl={rtl} />
 );
 export const MultipleThumbs: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <MultipleThumbsExample rtl={rtl} />
+	<MultipleThumbsExample rtl={rtl} />
 );
 export const MultipleThumbsWithDraggableTrack: React.FC<{ rtl: boolean }> = ({
-  rtl,
+	rtl,
 }) => <MultipleThumbsDraggableTrackExample rtl={rtl} />;
 export const OnFinalChangeEvent: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <FinalChangeEventExample rtl={rtl} />
+	<FinalChangeEventExample rtl={rtl} />
 );
 export const SuperSimple: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <SuperSimpleExample rtl={rtl} />
+	<SuperSimpleExample rtl={rtl} />
 );
 export const TwoThumbs: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <TwoThumbsExample rtl={rtl} />
+	<TwoThumbsExample rtl={rtl} />
 );
 export const TwoThumbsWithDraggableTrack: React.FC<{ rtl: boolean }> = ({
-  rtl,
+	rtl,
 }) => <TwoThumbsDraggableTrackExample rtl={rtl} />;
 export const TwoThumbsWithDraggableTrackAndDownDirection: React.FC<{
-  rtl: boolean;
+	rtl: boolean;
 }> = ({ rtl }) => <TwoThumbsDraggableTrackDownDirectionExample rtl={rtl} />;
+
 export const UpDirection: React.FC<{ rtl: boolean }> = ({ rtl }) => (
-  <UpDirectionExample rtl={rtl} />
+	<UpDirectionExample rtl={rtl} />
+);
+
+export const ScaledDiv: React.FC<{ rtl: boolean }> = ({ rtl }) => (
+	<ScaledDivExample rtl={rtl} />
 );
